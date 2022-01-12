@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+#first .head{
+    display: flex;
+    padding-top: 15px;
+}
+#first .head span{
+    color: rgb(133, 128, 128);
+    font-family: sans-serif;
+    margin-left: 15px;
+    
+
+}
+#first .navigation{
+    text-align: right;
+    margin-right: 15px;
+}
+#first .navigation a{
+    text-decoration: none;
+    color: rgb(133, 128, 128);
+    padding: 5px;
+    font-family: sans-serif;
+}
+.welcome{
+    margin-top: 10px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(221, 221, 221, 0.952);
+    padding-top: 75px;
+}
+.welcome h1{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(68, 66, 66);
+}
+
+.welcome .head-text{
+    width: 250px;
+    margin-left: 645px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    color: rgb(95, 91, 91);
+}
+.welcome .head-buttons{
+    padding-top: 20px;
+    
+}
+.welcome .head-buttons .red-button{
+    width: 200px;
+    background-color: rgb(238, 67, 67);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+.welcome .head-buttons .blue-button{
+    width: 200px;
+    background-color: rgb(51, 51, 167);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+#first-content{
+    display: flex;
+}
+#first-content .first-left{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 60px;
+}
+#first-content .first-left h2{
+    
+    color: rgb(133, 128, 128);
+    font-family: sans-serif;
+}
+#first-content .first-left p{
+    color: rgb(133, 128, 128);
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+#first-content .first-left button{
+    background-color: rgb(51, 51, 167);
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#first-content .first-right{
+    padding-left: 100px;
+    padding-top: 63px;
+    text-align: center;
+    
+
+}
+#first-content .first-right h1{
+    border: 2px solid black;
+    width: 600px;
+    height: 200px;
+    padding-top: 75px;
+    font-family: sans-serif;
+    background-color: rgba(221, 221, 221, 0.952);
+    color: grey;
+
+}
+#second-content{
+    
+    display: flex;
+    margin-top: 50px;
+    
+}
+#second-content .col-4 .laptop{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+    
+    padding-left: 10px;
+    
+}
+#second-content .col-4 .rocket{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+#second-content .col-4 .cart{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    
+}
+#second-content .col-4 .laptop .l-icon{
+    
+    height: 150px;
+    border-radius: 200px;
+    padding-top: 20px;
+    background-color:rgb(77, 77, 250) ;
+    color: white;
+    font-size: 70px;
+    
+    
+}
+#second-content .col-4 .rocket .r-icon{
+    
+    height: 150px;
+    border-radius: 200px;
+    padding-top: 20px;
+    background-color:rgb(77, 77, 250) ;
+    color: white;
+    font-size: 70px;
+    
+    
+}
+#second-content .col-4 .cart .c-icon{
+    
+    height: 150px;
+    border-radius: 200px;
+    padding-top: 20px;
+    background-color:rgb(77, 77, 250) ;
+    color: white;
+    font-size: 70px;
+    
+    
+}
+.sc-heading{
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: rgb(133, 128, 128);
+}
+#second-content .col-4 .laptop .l-heading{
+    color: rgb(133, 128, 128);
+    margin-top: 50px;
+
+}
+#second-content .col-4 .rocket .r-heading{
+    color: rgb(133, 128, 128);
+    margin-top: 50px;
+}
+#second-content .col-4 .cart .c-heading{
+    color: rgb(133, 128, 128);
+    margin-top: 50px;
+}
+#second-content .col-4 .laptop .l-text{
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: rgb(68, 66, 66)
+}
+#second-content .col-4 .rocket .r-text{
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: rgb(68, 66, 66)
+}
+#second-content .col-4 .cart .c-text{
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: rgb(68, 66, 66)
+}
+#third-content h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(68, 66, 66);
+}
+#third-content .upper{
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#third-content .lower{
+    display: flex;
+    padding-top: 40px;
+}
+#third-content .upper .col-3{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    padding-top: 75px;
+    font-family: sans-serif;
+    background-color: rgba(221, 221, 221, 0.952);
+    color: grey;
+
+}
+#third-content .lower .col-3{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    padding-top: 75px;
+    font-family: sans-serif;
+    background-color: rgba(221, 221, 221, 0.952);
+    color: grey;
+}
+#fourth-content .form-header .form-name{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+    color: rgb(68, 66, 66);
+}
+#fourth-content .form-header .form-text{
+    text-align: center;
+    font-family: sans-serif;
+    width: 80%;
+    margin-left: 120px;
+    color: rgb(68, 66, 66);
+
+}
+
+#fourth-content .form{
+    margin-top: 50px;
+}
+#fourth-content .form .up{
+    display: flex;
+    text-align: center;
+    width: 60%;
+    margin-left: 250px;
+    
+}
+#fourth-content .form .down .col-12{
+    padding-left: 170px;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+}
+#fourth-content .form .down .col-12 .submit input {
+     background-color:rgb(77, 77, 250);
+     color: white;
+     width: 50px;
+     height: 30px;
+     border-radius: 7px;
+     margin-bottom: 10px;
+     cursor: pointer;
+     
+
+}
+footer .end{
+    background-color: rgba(221, 221, 221, 0.952);
+    height: 150px;
+}
+footer .end h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+    color: rgb(68, 66, 66);
+    
+
+}
+
+
+
+
+
+
+
+
+
